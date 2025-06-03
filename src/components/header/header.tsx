@@ -14,7 +14,7 @@ export const Header = () => {
         <div className="flex h-16 items-center justify-between">
           <Link href="/">Logo</Link>
 
-          <nav className="flex items-center gap-6">Add commentMore actions
+          <nav className="flex items-center gap-6">
             <Link
               href="/"
               className={cn(
