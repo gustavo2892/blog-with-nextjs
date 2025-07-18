@@ -1,5 +1,5 @@
 import { useCallback, useMemo } from 'react';
-import { CheckIcon, Link2 } from 'lucide-react';
+import { CheckIcon, Link } from 'lucide-react';
 import {
   ShareConfig,
   SOCIAL_PROVIDERS,
@@ -67,7 +67,7 @@ export const useShare = ({
       {
         provider: 'clipboard',
         name: isCopied ? 'Link copiado!' : 'Copiar link',
-        icon: isCopied ? <CheckIcon className="h-4 w-4" /> : <Link2 className="h-4 w-4" />,
+        icon: isCopied ? <CheckIcon className="h-4 w-4" /> : <Link className="h-4 w-4" />,
         action: () => share('clipboard'),
       },
     ],
